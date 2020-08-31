@@ -1,0 +1,175 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T10:41:21.621Z",
+        "line": 12,
+        "name": "Validating the login functionality using valid credentials",
+        "description": "",
+        "id": "checking-the-login-functionality;validating-the-login-functionality-using-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2207000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid Sally and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sally",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps_POM.user_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T10:41:25.298Z",
+        "line": 13,
+        "name": "Validating the login functionality using valid credentials",
+        "description": "",
+        "id": "checking-the-login-functionality;validating-the-login-functionality-using-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1799000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 676000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid Amro and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amro",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps_POM.user_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps_POM.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking the login functionality",
+    "description": "",
+    "id": "checking-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
